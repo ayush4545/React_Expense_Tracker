@@ -1,0 +1,67 @@
+.new-expense {
+  display: flex;
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  background-color: blueviolet;
+  color: white;
+}
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense__action {
+  text-align: right;
+}
+
+.new-expense__action > button {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.new-expense__action > button:hover {
+  background-color: #581975;
+}
+
+.new-expense__btn {
+  margin: 0.2rem auto;
+}
+
+.new-expense__btn > button {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 12px;
+}
